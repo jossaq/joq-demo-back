@@ -6,6 +6,7 @@ const project = new AwsCdkConstructLibrary({
   cdkVersion: '1.78.0',
   name: 'joq-demo-back',
   repository: 'git@github.com:jossaq/joq-demo-back.git',
+  defaultReleaseBranch: 'main',
 
   /* AwsCdkConstructLibraryOptions */
   // cdkAssert: true,                                                          /* Install the @aws-cdk/assert library? */
