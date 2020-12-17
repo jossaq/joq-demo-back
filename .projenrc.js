@@ -14,7 +14,7 @@ const project = new AwsCdkConstructLibrary({
     '@aws-cdk/core',
     '@aws-cdk/aws-dynamodb',
     '@aws-cdk/aws-lambda',
-    '@aws-cdk/aws-lambda-python',
+    '@aws-cdk/aws-lambda-nodejs',
   ],
   // cdkTestDependencies: undefined,                                           /* AWS CDK modules required for testing. */
   // cdkVersionPinning: false,                                                 /* Use pinned version instead of caret version for CDK. */
